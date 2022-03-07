@@ -1,0 +1,40 @@
+.selecttemplates{float:none;margin:0 auto;padding:3% 5% 0;width:80%;clear:both;text-align:center}
+.selecttemplates h3{font-family:'Cabin',sans-serif;color:#000;font-size:33px;float:left;margin:0 0 10px;padding:0;width:100%;clear:both;text-align:center;line-height:42px;font-weight:700}
+.selecttemplates h3 span{color:#4442da}
+.tab{overflow:hidden;float:left;width:100%;text-align:center;margin:20px 0;padding:0}
+.tab button{background-color:inherit;float:none;border:none;outline:none;cursor:pointer;padding:0;transition:.3s;font-family:'Work Sans',sans-serif;color:#000;font-size:14px;margin:0 4%;font-weight:400;border-bottom:2px solid transparent}
+.tab button:hover{border-bottom:2px solid #7a76ff;background:no-repeat;border-radius:0}
+.tab button.active{border-bottom:2px solid #7a76ff;background:no-repeat;border-radius:0}
+.tabcontent{display:none;padding:6px 12px;border:1px solid #ccc;border-top:none}
+.cvblocks{float:left;margin:0;width:100%;clear:both}
+.cvblocks a{position: relative;z-index: 9999;text-decoration: none;outline: none;}
+.cvblocks a iframe{position: relative;z-index: 9;}
+.cvblocks a span {font-family: 'Cabin',sans-serif;font-size: 15px;color: #FFF;margin: 0 auto;padding: 10px 24px;max-width: 100%;float: left;width: auto;background-color: #4442da;border: 1px solid #4442da;-moz-border-radius: 30px;-webkit-border-radius: 30px;-khtml-border-radius: 30px;border-radius: 30px;font-weight: 700;letter-spacing: 1px;box-shadow: 3px 5px 10px 0 #3c39d247;bottom: 15%;left: 18.5%;position: absolute;opacity: 0;text-transform: uppercase;}
+.cvblocks a:hover span {opacity: 1;}
+.cvblocks .cvtemparea{float:left;margin:0 2% 0px;width:100%;clear:none;max-width:29%;text-align:left}
+.cvtempimg{float:left;margin:0 0 20px;width:100%;padding:0;text-align:center;position:relative;z-index:10}
+.cvtemparea h2{font-family:'Cabin',sans-serif;font-size:21px;margin:0 0 10px;padding:0;font-weight:700;float:left;width:100%}
+.cvtemparea p{font-family:'Work Sans',sans-serif;font-size:15px;margin:0 0 10px;padding:0;font-weight:400;float:left;width:100%}
+.cvtempimg img{max-width:100%;border:.1rem solid #e8e8e8;border-radius:.4rem;padding:5px}
+.cvtempimg a{float:left;text-decoration:none;outline:none;margin:0;padding:0;width:100%}
+.cvtempimg a span{font-family:'Cabin',sans-serif;font-size:15px;color:#FFF;margin:0 auto;padding:10px 24px;max-width:100%;float:left;width:auto;background-color:#4442da;border:1px solid #4442da;-moz-border-radius:30px;-webkit-border-radius:30px;-khtml-border-radius:30px;border-radius:30px;font-weight:700;letter-spacing:1px;box-shadow:3px 5px 10px 0 #3c39d247;bottom:15%;left:18.5%;position:absolute;opacity:0;text-transform:uppercase}
+.cvtempimg a:hover span{opacity:1}
+
+@media (max-width: 767px) {
+	.selecttemplates {padding: 0% 5% 0;}	
+.selecttemplates {padding: 0% 0% 0;width: 100%;}
+.tab button {margin: 0 1%;}		
+}
+@media (max-width: 480px) {
+.cvblocks .cvtemparea {max-width: 46%;}		
+.cvtempimg a span {font-size: 12px;padding: 10px 14px;left: 12.5%;}
+}
+
+@media (max-width: 320px) {
+.selecttemplates h3 {font-size: 21px;line-height: 26px;}	
+.cvblocks .cvtemparea {margin: 0 0% 0px;width: 100%;max-width: 100%;}
+.cvblocks .cvtemparea {margin: 0 0% 0px;width: 100%;max-width: 100%;}	
+.cvtempimg a span {left: 22.5%;}	
+	
+}
+	

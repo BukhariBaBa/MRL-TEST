@@ -1,0 +1,300 @@
+.clr{clear:both}
+.userprofiles {
+  float: left;
+  margin: 0;
+  padding: 0px 0 0px 0;
+  width: 100%;
+  clear: both;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("../public/assets/images/online-resume-builder-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+}
+.userprofilesbg {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("../public/assets/images/bbg.png");
+  background-repeat: repeat;
+}
+.browse_picture {
+  float: left;
+  margin: 25px 0 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.browse_picture img {
+  float: none;
+  margin: 0 auto;
+  padding: 5px;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 1px solid #d7dde2;
+  background-color: #fff;
+  display: block;
+}
+.browse_picture label {
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: -28% 0 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #545454;
+  line-height: 16px;
+  position: relative;
+}
+.browse_picture input[type="file"] {
+  display: none;
+}
+.username {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  float: left;
+  margin: 15px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: #385658;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.userprofilesbg p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  float: left;
+  margin: 5px 0 10px 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+ul.dashboardlinks {
+  float: left;
+  margin: 30px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul.dashboardlinks li {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+ul.dashboardlinks li a {
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+ul.dashboardlinks li a:hover {
+  background: linear-gradient(90deg, #54baed 0%, #70b7db 50%, #63b8e3 100%);
+  color: #fff;
+}
+ul.dashboardlinks li.active a {
+  background: linear-gradient(90deg, #54baed 0%, #70b7db 50%, #63b8e3 100%);
+  color: #fff;
+}
+ul.dashboardlinks li a i {
+  margin-right: 8px;
+}
+
+.improve_resume {
+  float: left;
+  margin: 30px 0 30px 5%;
+  padding: 0;
+  width: 95%;
+}
+.improve_resume h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  float: left;
+  margin: 0px 0 20px 0;
+  padding: 0 0 10px 0;
+  width: 100%;
+  text-align: left;
+  color: #385658;
+  border-bottom: 1px solid #385658;
+}
+.improve_resume_temp {
+  float: left;
+  margin: 30px 0% 30px 0;
+  padding: 0;
+  width: 35%;
+  max-height: 400px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.improve_resume_info {
+  float: left;
+  margin: 30px 0 30px 3%;
+  padding: 0;
+  width: 60%;
+}
+
+.improve_resume_info h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  float: left;
+  margin: 0px 0 10px 0;
+  padding: 0 0 0px 0;
+  width: 100%;
+  text-align: left;
+  color: #385658;
+}
+.improve_resume_info p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  float: left;
+  margin: 5px 0 20px 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: left;
+  color: #000;
+}
+ul.fixed_resune {
+  margin: 20px 0 20px 20px;
+  padding: 0;
+  width: 100%;
+  float: left;
+  max-width: 280px;
+}
+ul.fixed_resune li {
+  list-style: none;
+  margin: 10px 0px 0 0;
+  padding: 0 0 0 0px;
+  color: #000;
+  width: 50%;
+  float: left;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+ul.fixed_resune li i {
+  margin-right: 5px;
+  color: #fa5757;
+  font-size: 13px;
+}
+ul.fixed_resune li.active i {
+  margin-right: 5px;
+  color: #008359;
+  font-size: 13px;
+}
+a.fixresume {
+  background-color: #fa5757;
+  color: #fff;
+  margin: 0 0 0 15px;
+  padding: 11px 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  float: right;
+  border: none;
+  /* clear: both; */
+}
+a.fixresume:hover {
+  background-color: #6acdff;
+}
+div.progressbar {
+  --size: 10rem;
+  --fg: #369;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+      closest-side,
+      white 80%,
+      transparent 0 99.9%,
+      white 0
+    ),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+  border: 10px solid #369;
+  float: left;
+}
+div.progressbar:before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) "%";
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  float: left;
+  margin: 10px 0 40px 0;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+.resumeHolder {
+  transform: scale(0.325);
+  transform-origin: top left;
+  display: flex;
+  flex-flow: column;
+  max-height: 400px;
+  user-select: none;
+}
+.resumeHolderPreview {
+  user-select: none;
+  width: 842px;
+  margin: 2% auto;
+}
+.badge {
+
+  background: #fa5757;
+  padding: 3px 15px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.makePrimaryClass {
+  background: #6ab7df;
+  padding: 3px 15px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+.makeprimaryRow{
+  width: 200px;
+}
+.makeprimaryRow:hover .makePrimaryClass{
+  display: inline-block;
+}

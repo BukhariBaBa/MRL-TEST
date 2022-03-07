@@ -1,0 +1,31 @@
+.clr{clear: both;}
+.cv_template{font-family: 'Nunito', sans-serif;margin:0 auto;padding: 15px;border: 1px solid #ddd;cursor: pointer;}
+.cv_template a{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;text-decoration: none;outline: none; }
+.cv_template p{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;margin: 0 0 10px 0;padding: 0;}
+.cv_template ul,.cv_template ol{float: left;margin: 0 0 0 0;padding: 0 0;list-style: none;width: 100%}
+.cv_template ul li, .cv_template ol li{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;margin: 0 0 4px 4%;padding: 0 0 0 0;float: left;list-style: disc;width: 96%;}
+.cv_template ul.menuhalf,.cv_template ol.menuhalf{float: right;margin: 0 10px 0 0;padding: 0 0;list-style: none;width: auto;max-width: 33%;}
+.cv_template ul.menuhalf li, .cv_template ol.menuhalf li{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;margin: 0 0 3px 0;padding: 0 0 0 0;float: left;list-style: disc;width: 100%;}
+.name {font-family: 'Domine', serif;float: left;width: auto;margin: 0 0 10px 0;padding: 0px 0 0px 0;font-size: 24px;color: #393939;text-transform: uppercase;font-weight: 700;letter-spacing: 2px;text-align: left;}
+.professionvtitle{font-family: 'Domine', serif;float: left;width: auto;text-align: left;margin: 2px 0;padding:20px 15px;font-size: 12px;color: #393939;letter-spacing: 2px;font-weight: normal;text-transform: uppercase;background-color: #f9e419;font-weight: bold;}
+.info{float: left;margin: 0;padding: 0 0 0 15px;width: auto;}
+.contact_info span{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;margin: 0 0 3px 0;padding: 0 0 0 0;float: left;width: auto;clear: both;}
+.contact_info{float: left;margin: 0 15px;padding: 0px 0 0 0;width: auto;}
+.width_full{width: 100%;float: left;margin: 0px 0 0 0;padding: 0px 0;}
+.left_area{width: 30%;float: left;margin: 0 0% 0 0%;padding: 0 0% 0 0;}
+.right_area{width: 65.5%;float: left;margin: 0 0 0 2%;padding: 0 0 0 2%;border-left: 2px solid #b0b0af;}
+.cv_template_raw{float: left;margin: 0 0 0 0;padding: 15px 0px 15px 0 !important;width: 100%;}
+.cv_template_raw h3{font-family: 'Domine', serif;font-size: 19px;color: #000000;margin: 0 0 20px 0;padding: 0px 0 0px 0%;width: 100%;text-transform: uppercase;font-weight: 700;border-bottom: 1px solid #b0b0af;}
+.cv_template_raw h3:after {height: 2px;display: block;width: 50px;background: #808080;content: "";}
+#page-content{clear: both;padding: 15px 15px 15px 15px;}
+.cv_template_raw h4{font-family: 'Domine', serif;font-size: 15px;color: #000000;margin: 0 0 0px 0;padding: 0 0px;width: 100%;float: left;}
+.cv_template_raw h4 span{font-family: 'Domine', serif;font-size: 12px;font-weight: 600;}
+.left_area .date{float: left;width: 100%;}
+.left_area .work_history h4 {margin: 0 0 5px 0;}
+.date{font-family: 'Nunito', sans-serif;font-size: 12px;font-weight: 700;float: right;width: auto;margin: 0px 0 10px 0;}
+.work_history{float: left;width: 100%; margin: 0 0 30px 0;padding: 0 0 0 0px}	
+.work_history p{font-family: 'Nunito', sans-serif;font-size: 12px;color: #000;margin: 0;padding: 0;width: 100%;float: left;}
+.work_history h4 {font-family: 'Domine', serif;font-size: 15px;color: #000000;margin: 0 0 15px 0;padding: 0 0px;width: auto;float: left;}
+.summary_area{float: left;width: 100%;margin: 0;padding: 0;}
+.border_right{border-right: 15px solid #f9e419;padding: 0 !important;margin-bottom: 20px !important;}
+.cv_template_width{width: 835px;}

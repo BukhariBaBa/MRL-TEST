@@ -1,0 +1,66 @@
+.pagebg {
+  float: left;
+  margin: 0;
+  padding: 30px 0 30px 0;
+  width: 100%;
+  clear: both;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("../public/assets/images/online-resume-builder-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+	position: relative;
+}
+.packagesbg{
+  background-image: url(/_next/static/media/bbg.084cafe6.png);
+  background-repeat: repeat;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+position: absolute;	
+}
+ .pagebg h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0 0 7px;
+  padding: 0;
+  color: #385658;
+  float: left;
+  width: 100%;
+	 position: relative;
+z-index: 99;
+}
+ .pagebg p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #5c5c5c;
+  margin: 0 0 15px;
+  padding: 0;
+  width: 100%;
+  float: left;
+  font-weight: 300;
+	 position: relative;
+z-index: 99;
+}
+
+.price_layout_cell{min-height:556px;float:left;margin:40px 0 20px 0;width:100%;box-shadow:5px 5px 25px 0 rgba(0,0,0,0.3);padding:30px 0;border-radius:20px}
+.cell_bg{color:#fff;background-color:#435df8}
+.cell_bg2{color:#111;background-color:#fff}
+.price_layout_cell h1{font-weight:700;letter-spacing:1px;font-size:2rem;padding:0 20px;font-family: 'DM Sans', sans-serif;}
+.price_layout_cell h1 span{color:#b3bdfc}
+.price_layout_cell h4{font-family: 'DM Sans', sans-serif;color:#385658;letter-spacing:2px;text-transform:uppercase;font-weight:700;font-size:1.25rem;margin:0;text-align:center;width:100%}
+.price_layout_cell h2{font-family: 'DM Sans', sans-serif;min-height:86px;margin:20px 0 0;padding:10px 15px;color:#111;font-weight:700;font-size:3.6rem;text-align:center}
+.price_layout_cell h2 span{font-size:18px}
+.price_layout_cell p{line-height:2.2;font-size:15px;margin:20px 0 0;text-align:center;color:#111;font-family: 'DM Sans', sans-serif;padding:0 20px}
+.price_h{color:#fff!important;background-color:#6acdff}
+a.buy_btn_1{text-decoration:none;outline:none;margin:22px 5% 0;width:90%;font-weight:400;text-transform:uppercase;letter-spacing:1px;padding:15px;float:left;text-align:center;font-family: 'DM Sans', sans-serif;}
+
+.btn_bg_color{color:#111;background-color:#c3c3c3}
+.btn_bg_color2{background-color:#6acdff;color:#fff}
+a.buy_btn_1:hover{background-color:#f13c3c;color:#fff}
+a.btn_bg_color:hover,a.btn_bg_color2:hover{background-color:#fa5757;color:#fff}
+
+

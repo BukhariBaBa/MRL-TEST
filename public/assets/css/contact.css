@@ -1,0 +1,17 @@
+.contactusform{float:left;margin:0;padding:0;width:100%}
+.contactusform h1{font-family:'Cabin',sans-serif;font-weight:600;font-size:31px;margin:0 0 5px;padding:0;color:#302ea7;float:left;width:100%;text-align:center;letter-spacing:3px}
+.contactusform p{font-family:'Work Sans',sans-serif;font-size:14px;color:#5c5c5c;margin:0 0 10px;padding:0;width:100%;float:left;font-weight:300;text-align:center}
+.contactusform .formraw{float:left;margin:0 0 10px;padding:0;width:100%}
+.contactusform .formraw label{font-family:'Work Sans',sans-serif;font-size:14px;font-weight:300;float:left;width:100%;margin:0 0 2px;padding:0;color:#000;line-height:24px}
+.contactusform .formraw input.text{font-family:'Work Sans',sans-serif;font-size:14px;font-weight:300;color:#6a6a6a;margin:0 1% 0 0;padding:5px 12px;float:left;width:95%;border:1px solid #3d6fdd;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px}
+.contactusform .formraw .req{margin:12px 0 0 1%;padding:0;float:left;width:auto}
+.contactusform .formraw .req i{margin:0;padding:0;color:#e05050;float:left;font-size:7px}
+.contactusform .formraw textarea{font-family:'Work Sans',sans-serif;font-size:14px;font-weight:300;color:#6a6a6a;margin:0;padding:5px 12px;float:left;width:100%;border:1px solid #3d6fdd;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;resize:none;min-height:153px}
+.contactusform .formraw input.submit{background-color:#7a76ff;color:#FFF;margin:0 auto;padding:10px 27px;text-align:center;text-decoration:none;outline:none;font-family:'Work Sans',sans-serif;font-size:17px;font-weight:400;float:none;width:auto;border-radius:5px;display:block;border: none;}
+.contactusform .formraw input.submit:hover{color:#000}
+h1.pagetitle{font-family:'Cabin',sans-serif;font-weight:600;font-size:31px;margin:0 0 20px;padding:0;color:#302ea7;float:left;width:100%}
+.mapcontact{float:left;width:100%;margin:0;padding:0}
+.iconssocials{float:left;margin:10px 0 20px;padding:0;width:100%;text-align:center}
+.iconssocials a{text-decoration:none;outline:none;margin:0 10px;padding:0;color:#302ea7;text-align:center;width:auto;float:none}
+.iconssocials a:hover{color:#f13c3c}
+.iconssocials a i{font-size:21px}

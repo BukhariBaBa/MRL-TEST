@@ -1,0 +1,51 @@
+.clr{clear:both}
+.header{float:left;width:100%;margin:0;padding:15px 0}
+.logo{float:left;margin:0;padding:0;width:auto}
+.logo a{text-decoration:none;outline:none;font-family:'Intro';font-size:10px;color:#080808;float:left;margin:0;padding:0;letter-spacing:.3px}
+.logo a:hover{text-decoration:none;outline:none;color:#080808}
+.logo a img{float:left;margin:4px 0 0;padding:0;max-width:170px}
+
+.signin{float:right;margin:5px 0 0;padding:0;width:auto}
+.signin a{background-color:#0505a9;color:#FFF;margin:0;padding:10px 24px;text-align:center;text-decoration:none;outline:none;font-family:'Rubik',sans-serif;font-size:13px;float:right;border-radius:6px;box-shadow:0 0 7px 0 #939393}
+.signin a:hover{opacity:.7}
+
+.cvheadermenu{float:right;margin:9px 0px 0 0;padding:0;width:auto}
+.cvheadermenu ul{float:left;margin:0;padding:0;width:auto;list-style:none}
+.cvheadermenu ul li{float:left;margin:0;padding:0 0px;width:auto;list-style:none;}
+.cvheadermenu ul li a{float:left;margin:0;padding:0 0px;text-decoration:none;outline:none;color: #d5dae1;
+font-size: 16px;font-family: 'DM Sans', sans-serif;cursor: default;
+pointer-events: none;
+counter-increment: item;}
+
+.cvheadermenu ul li:first-child{padding:0 10px 0 0}
+.cvheadermenu ul li.active{}
+.cvheadermenu ul li.active a{color:#385658;}
+.cvheadermenu ul li a:hover{color:#d5dae1;}
+
+.cvheadermenu ul li a:after {
+  background: #d5dae1;
+  width: 15px;
+  height: 2px;
+  display: inline-block;
+  content: "";
+  margin: 0 9px;
+  vertical-align: middle;
+	color: #d5dae1;
+cursor: default;
+pointer-events: none;
+}
+.cvheadermenu ul li.active a:after { background: #385658; color: #385658; }
+.cvheadermenu ul li:last-child a:after{width: 0; height: 0; margin: 0;}
+
+
+
+
+.resumebuilder {background-color: #FFF;float: left;margin: 0;padding: 30px 0 90px 0;width: 100%;clear: both;height: auto;min-height: 100vh;}
+.copyright{float:left;margin:0px 0 0 0;padding:15px 0;width:100%;clear:both;border-top:1px solid #979797;background-color: #385658; height: 60px;}
+.copyright p{font-family: 'DM Sans', sans-serif;
+color: #FFF;
+font-size: 12px;float:left;margin:0;padding:0;width:100%;font-weight:400}
+.copyright p a{font-family: 'DM Sans', sans-serif;
+color: #FFF;
+font-size: 12px;margin:0 10px;padding:0;text-decoration:underline;outline:none;font-weight:400}
+.copyright p a:hover{color:#6ACDFF;outline:none}

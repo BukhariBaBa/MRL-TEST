@@ -1,0 +1,141 @@
+.bannercontent{float:left;margin:0;padding:0;width:50%}
+.bannerhomearea{float:left;margin:0;padding:6% 0 0;width:100%;clear:both}
+.bannerhomearea h1{font-family:'Cabin',sans-serif;color:#281b6f;font-size:44px;margin:144px 0 15px;padding:0;float:left;width:100%;line-height:64px;font-weight:700}
+.bannerhomearea p{font-family:'Work Sans',sans-serif;font-size:24px;margin:0 0 10px;padding:0;font-weight:500;text-align:left}
+.buttons{margin-top:20px;text-align:left;border-radius:30px;float:left;width:100%;height:auto}
+.buttons svg{height:0}
+.blobbtn{z-index:1;position:relative;padding:15px 60px;margin-bottom:0;text-align:center;text-transform:uppercase;color:#FFF;font-family:'Cabin',sans-serif;font-size:15px;font-weight:700;background-color:transparent;outline:none;border:none;transition:color .5s;cursor:pointer;border-radius:30px}
+.blobbtn:before{content:"";z-index:1;position:absolute;left:0;top:0;width:100%;height:100%;border:2px solid #0505A9;border-radius:30px}
+.blobbtn:after{content:"";z-index:-2;position:absolute;left:3px;top:3px;width:100%;height:100%;transition:all .3s .2s;border-radius:30px}
+.blobbtn:hover{color:#0505A9;border-radius:30px}
+.blobbtn a{color:#0505A9}
+.blobbtn:hover a{color:#0505A9}
+.blobbtn:hover:after{transition:all .3s;left:0;top:0;border-radius:30px}
+.blobbtninner{z-index:-1;overflow:hidden;position:absolute;left:0;top:0;width:100%;height:100%;border-radius:30px;background:#0505A9}
+.blobbtnblobs{position:relative;display:block;height:100%;filter:url(#goo)}
+.blobbtnblob{position:absolute;top:2px;width:25%;height:100%;background:#FFF;border-radius:100%;transform:translate3d(0,150%,0) scale(1.7);transition:transform .45s}
+.blobbtnblob:nth-child(1){left:0;transition-delay:0}
+.blobbtnblob:nth-child(2){left:30%;transition-delay:.08s}
+.blobbtnblob:nth-child(3){left:60%;transition-delay:.16s}
+.blobbtnblob:nth-child(4){left:90%;transition-delay:.24s}
+.blobbtn:hover .blobbtnblob{transform:translateZ(0) scale(1.7)}
+
+.output{text-align:left;position:absolute;z-index:10;top:70px;left:42%}
+.output h1{font-size:31px;font-family:'Cabin',sans-serif;color:#2c323d;margin:0;padding:0;line-height:50px}
+.cursor::after{content:"";display:inline-block;margin-left:3px;background-color:#fff;animation-name:blink;animation-duration:.5s;animation-iteration-count:infinite}
+h1.cursor::after{height:24px;width:13px}
+p.cursor::after{height:13px;width:6px}
+@keyframes blink {
+0%{opacity:1}
+49%{opacity:1}
+50%{opacity:0}
+100%{opacity:0}
+}
+.homebannercv{float:left;margin:0;padding:0;width:50%;max-height:590px;overflow:hidden;position:relative;box-shadow:0 0 20px 0 #939393}
+.homebannercv img{max-width:100%;position:relative;z-index:9}
+.bannercvs{float:left;margin:0;padding:0;width:50%;transform-origin:50% 50%;transform-style:preserve-3d;-webkit-animation:floating 5s -1s infinite;animation:floating 5s -1s infinite}
+.bannercvs img{height:auto;max-width:100%;transform-origin:50% 100%;transform:translateZ(-5rem)}
+@-webkit-keyframes floating {
+0%,100%{transform:translateY(-5%)}
+50%{transform:translateY(0)}
+}
+@keyframes floating {
+0%,100%{transform:translateY(-5%)}
+50%{transform:translateY(0)}
+}
+.resumeservices{float:left;margin:0;padding:90px 0;width:100%;background-color:#302ea7;clear:both}
+.resumeservices h2{font-family:'Cabin',sans-serif;float:left;color:#FFF;font-size:31px;margin:0 0 15px;padding:0;width:100%;font-weight:700;text-align:center}
+.resumeservices p{font-family:'Work Sans',sans-serif;float:left;color:#FFF;font-size:13px;margin:0 0 40px;padding:0;width:100%;font-weight:400;text-align:center}
+.resumeservices .resumeservicesinfo{float:left;margin:0;padding:0;width:100%;clear:both}
+.resumeservices1{float:left;margin:0;padding:0;width:20%}
+.resumeservices1 .numbers{font-family:'Cabin',sans-serif;color:#302ea7;font-size:32px;font-weight:700;background-color:#fff;-moz-border-radius:50%;-webkit-border-radius:50%;-khtml-border-radius:50%;border-radius:50%;text-align:center;width:80px;height:80px;line-height:80px;margin:0 auto;box-shadow:0 7px 14px 0 #262584}
+.resumeservices1:hover .numbers{background-color:#ffd800;color:#fff}
+.resumeservices1:hover h4{color:#ffde00}
+.resumeservices1 h4{font-family:'Cabin',sans-serif;font-size:20px;color:#FFF;margin:20px 0 10px;padding:0;line-height:24px;text-align:center;font-weight:700}
+.resumeservices1 p{font-family:'Work Sans',sans-serif;font-size:13px;color:#FFF;margin:0;padding:0;text-align:center;font-weight:400}
+.resumeservicesdotsline{float:left;margin:30px 0 0;padding:0;width:20%}
+
+.resumecoverletters{background-image:url("../images/resumedots.jpg");background-repeat:no-repeat;background-position:5% 60px;float:left;margin:0;padding:50px 0;width:100%;background-color:#FFF;clear:both;text-align:center}
+.resumecoverletters h2{font-family:'Cabin',sans-serif;float:left;color:#281b6f;font-size:31px;margin:0 0 15px;padding:0;width:100%;font-weight:700}
+.resumecoverletters p{font-family:'Work Sans',sans-serif;float:left;color:#29293a;font-size:13px;margin:0 0 10px;padding:0;width:100%;font-weight:400}
+.resumecoverletters .resumecoverblock{float:left;margin:40px 3% 15px;padding:0;width:100%;max-width:27%}
+.resumecoverletters .resumecoverblock img{box-shadow:0 0 20px 0 #dce6f3}
+.viewtemplates{float:left;margin:20px 0;padding:0;width:100%;text-align:center}
+.viewtemplates a{padding:15px 40px;background-color:#3b39d2;float:none;margin:0;border:none;width:100%;text-align:center;color:#FFF;font-family:'Cabin',sans-serif;font-size:14px;font-weight:700;text-decoration:none;outline:none;border-radius:50px;box-shadow:3px 5px 10px 0 #3c39d247}
+.viewtemplates a:hover{background-color:#ffde00;color:#000}
+
+
+.arrangelayouts{float:left;margin:0;padding:50px 0;width:100%;background-color:#eef5ff;clear:both;text-align:center}
+.arrangelayouts h2{font-family:'Cabin',sans-serif;float:left;color:#281b6f;font-size:27px;margin:0 0 15px;padding:0;width:100%}
+.arrangelayouts h2 b{font-weight:900;font-size:36px}
+.arrangelayouts p{font-family:'Work Sans',sans-serif;float:left;color:#29293a;font-size:13px;margin:0 0 10px;padding:0;width:100%}
+.deliverbest{float: left;margin: 0 0 0 0;padding: 0 0 0 0;width: 100%;}
+.deliverbest h3{font-family: 'Cabin',sans-serif;font-size: 27px;margin: 0 0 20px;padding: 0;font-weight: 700;float: left;width: 100%;text-align: left;}
+.deliverbest ul{float: left;width: 100%;margin: 40px 0 20px 0;padding: 0;list-style: none;text-align: left;}
+.deliverbest ul li{float: left;width: 100%;margin: 0 0 10px;padding: 5px 0 5px 44px;background-image:url("../images/check.png");background-repeat: no-repeat;background-position: left top;font-family: 'Work Sans',sans-serif;font-size: 17px;font-weight: 500;}
+
+.whychoosebtn{float: left;margin: 20px 30px 20px 0;padding: 0;width: auto;text-align: center;}
+.whychoosebtn a{padding:15px 40px;background-color:#3b39d2;float:none;margin:0;border:none;width:100%;text-align:center;color:#FFF;font-family:'Cabin',sans-serif;font-size:14px;font-weight:700;text-decoration:none;outline:none;border-radius:50px;box-shadow:3px 5px 10px 0 #3c39d247;text-transform: uppercase;}
+.whychoosebtn a:hover{background-color:#ffde00;color:#000}
+.whychoose{background-image:url("../images/svg/whychoose.svg");background-repeat: no-repeat;background-position: center left;padding: 100px 0 100px 0;margin: 0 0 0 0;float: left;width: 100%;}
+.whychooseblock{float: left;width: 100%;padding: 25px 20px 15px;margin-bottom: 20px;background: #fff;border: 1px solid #eee;box-shadow: 0px 2px 27px 0px rgba(154, 161, 171, 0.18);-webkit-box-shadow: 0px 2px 27px 0px rgba(154, 161, 171, 0.18);-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.whychooseblock .innerbox {position: relative;padding-left: 80px;}
+.whychooseblock .innerbox .iconimg{position: absolute;left: 0;top: 0;}
+.whychooseblock .innerbox  h3{font-family: 'Cabin',sans-serif;font-size: 20px;color: #281b6f;margin: 1px 0 10px;padding: 0;line-height: 24px;text-align: left;font-weight: 700;float: left;width: 100%;}
+.whychooseblock .innerbox p{font-family: 'Work Sans',sans-serif;font-size: 13px;color: #000;margin: 0;padding: 0;text-align: left;font-weight: 400;width: 100%;float: left;line-height: 20px;}
+.whowecontant{float: left;width: 100%;margin: 0 0 0 0;padding: 0 0 0 0;}
+.whowecontant h3{font-family: 'Cabin',sans-serif;float: left;color: #281b6f;font-size: 31px;margin: 20px 0 15px 0;padding: 0;width: 100%;font-weight: 700;text-align: left;}
+.whowecontant p{font-family: 'Work Sans',sans-serif;float: left;color: #000;font-size: 13px;margin: 0 0 15px;padding: 0;width: 100%;font-weight: 400;text-align: left;line-height: 20px;}
+
+.servicesprovide {float: left;margin: 0;padding: 50px 0;width: 100%;background-color: #fff;clear: both;text-align: center;}
+.customcvtemplate {position: relative;padding: 49px 20px;background: #fff;border-radius: 15px;overflow: hidden;box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);float: left;width: 100%;margin: 40px 0 20px 0;background-image:url("../images/customcvtemplate.jpg");background-repeat: no-repeat;background-position: left top;}
+.customcvtemplate h3 {font-family: 'Cabin',sans-serif;font-size: 27px;margin: 0 0 20px 8%;padding: 0;font-weight: 700;float: left;width: 70%;}
+.viewtemplates1{float: right;margin: 40px 30px 20px 0;padding: 0;width: auto;text-align: center;}
+.viewtemplates1 a{padding:15px 40px;background-color:#3b39d2;float:none;margin:0;border:none;width:100%;text-align:center;color:#FFF;font-family:'Cabin',sans-serif;font-size:14px;font-weight:700;text-decoration:none;outline:none;border-radius:50px;box-shadow:3px 5px 10px 0 #3c39d247}
+.viewtemplates1 a:hover{background-color:#ffde00;color:#000}
+
+.howweare{background:#eef5ff;float:left;margin:0;padding:90px 0;width:100%;clear:both}
+.howweare h2{font-family:'Cabin',sans-serif;float:left;color:#000;font-size:31px;margin:0 0 15px;padding:0;width:100%;font-weight:700;text-align:center}
+.howweare p{font-family:'Work Sans',sans-serif;float:left;color:#000;font-size:13px;margin:0 0 40px;padding:0;width:100%;font-weight:400;text-align:center}
+.howweare .howweareinfo{float: left;margin: 0 0 30px;padding: 30px 15px;width: 100%;background-color: #fff;border-radius: 15px;min-height: 175px;box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);text-align: center;}
+.howweare .howweareinfo img{margin-bottom: 20px;min-height: 56px;position: relative;display: inline-block;width: 70px;float: left;}
+.howweareinfo h4{font-family: 'Cabin',sans-serif;font-size: 20px;color: #281b6f;margin: 1px 0 10px 20px;padding: 0;line-height: 24px;text-align: left;font-weight: 700;float: left;width: 80%;}
+.howweareinfo p{font-family: 'Work Sans',sans-serif;font-size: 13px;color: #000;margin: 0 0 0 20px;padding: 0;text-align: left;font-weight: 400;width: 80%;float: left;line-height: 20px;}
+
+
+	
+@media (max-width: 767px) {
+.bannercontent {width: 100%;}
+.bannerhomearea h1 {margin: 10px 0 15px;text-align: center;}
+.bannerhomearea p {text-align: center;}
+.buttons {text-align: center;}	
+.homebannercv {width: 100%;}
+.resumeservices1 {width: 100%;}
+.resumeservicesdotsline {margin: 30px 0;width: 100%;text-align: center;}
+.resumecoverletters .resumecoverblock {margin: 40px 0% 15px;max-width: 100%;}
+.customcvtemplate h3 {margin: 0 0 20px 0%;width: 100%;}
+
+
+}
+@media (max-width: 480px) {
+.bannerhomearea h1 {
+  font-family: 'Cabin',sans-serif;font-size: 36px;}
+.bannerhomearea p {font-size: 18px;}
+.output {top: 10px;}
+.howweare .howweareinfo img {float: none;}
+.howweareinfo h4 {margin: 1px 0 10px 0px;text-align: center;width: 100%;}	
+.howweareinfo p {margin: 0 0 0 0px;text-align: center;width: 100%;}		
+}
+@media (max-width: 320px) {
+.bannerhomearea h1 {font-size: 24px;}
+.mainmenu {float: right;}	
+input[type="checkbox"]:checked.menubtn ~ .collapse {top: 55px;}	
+.signin {margin: 20px 0 0;width: 100%;text-align: center;}	
+.signin a {float: none;	}
+.bannerhomearea p {font-size: 13px;}	
+.whychooseblock .innerbox {padding-left: 0;padding-top: 75px;}	
+.whychooseblock .innerbox .iconimg {text-align: center;width: 100%;}
+	
+	
+}
+
